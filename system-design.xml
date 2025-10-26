@@ -1,0 +1,146 @@
+<system_requirements>
+  <overview>
+    <project_name>システム名</project_name>
+    <description>システムの概要説明</description>
+    <purpose>システムの目的・解決する課題</purpose>
+  </overview>
+
+  <technical_stack>
+    <database>
+      <type>SQLite</type>
+      <version>No Specification</version>
+      <schema_requirements>スキーマ設計の要件</schema_requirements>
+    </database>
+
+    <programming_language>
+      <primary>Rust</primary>
+      <version>バージョン</version>
+      <frameworks></frameworks>
+      <libraries>必要なライブラリ</libraries>
+    </programming_language>
+
+    <architecture>
+      <type>アーキテクチャパターン（例：MVC, マイクロサービス、REST API）</type>
+      <deployment>デプロイ環境（例：Web, デスクトップ, モバイル）</deployment>
+    </architecture>
+  </technical_stack>
+
+  <user_behavior>
+    <user_roles>
+      <role name="ロール名1">
+        <description>役割の説明</description>
+        <permissions>権限</permissions>
+      </role>
+      <role name="ロール名2">
+        <description>役割の説明</description>
+        <permissions>権限</permissions>
+      </role>
+    </user_roles>
+
+    <user_workflows>
+      <workflow name="ワークフロー名1">
+        <steps>
+          <step>ステップ1の説明</step>
+          <step>ステップ2の説明</step>
+        </steps>
+      </workflow>
+    </user_workflows>
+
+    <usage_scenarios>
+      <scenario>利用シナリオ1</scenario>
+      <scenario>利用シナリオ2</scenario>
+    </usage_scenarios>
+  </user_behavior>
+
+  <functional_requirements>
+    <feature name="機能名1">
+      <description>機能の詳細説明</description>
+      <input>入力データ・パラメータ</input>
+      <output>出力結果</output>
+      <priority>優先度（高/中/低）</priority>
+    </feature>
+
+    <feature name="機能名2">
+      <description>機能の詳細説明</description>
+      <input>入力データ・パラメータ</input>
+      <output>出力結果</output>
+      <priority>優先度（高/中/低）</priority>
+    </feature>
+  </functional_requirements>
+
+  <non_functional_requirements>
+    <performance>
+      <response_time>応答時間の要件</response_time>
+      <throughput>スループットの要件</throughput>
+      <scalability>拡張性の要件</scalability>
+    </performance>
+
+    <security>
+      <authentication>認証方式</authentication>
+      <authorization>認可方式</authorization>
+      <data_protection>データ保護の要件</data_protection>
+    </security>
+
+    <usability>
+      <ui_ux>UI/UXの要件</ui_ux>
+      <accessibility>アクセシビリティ要件</accessibility>
+      <internationalization>多言語対応の要否</internationalization>
+    </usability>
+
+    <reliability>
+      <availability>可用性の目標</availability>
+      <error_handling>エラーハンドリング方針</error_handling>
+      <backup_recovery>バックアップ・リカバリ要件</backup_recovery>
+    </reliability>
+
+    <maintainability>
+      <code_standards>コーディング規約</code_standards>
+      <documentation>ドキュメント要件</documentation>
+      <testing>テスト要件</testing>
+    </maintainability>
+  </non_functional_requirements>
+
+  <constraints>
+    <technical_constraints>技術的制約</technical_constraints>
+    <business_constraints>ビジネス上の制約</business_constraints>
+    <timeline>開発期間・スケジュール</timeline>
+    <budget>予算制約（該当する場合）</budget>
+  </constraints>
+
+  <data_requirements>
+    <data_models>
+      <data_model>
+        <name>テーブル名</name>
+        <columns>
+          <column>
+            <name>カラム名</name>
+            <type>データ型</type>
+            <primary_key>false</primary_key>
+            <not_null>true</not_null>
+            <unique>true</unique>
+            <auto_increment>false</auto_increment>
+            <foreign_key>
+              <table_name>テーブル名</table_name>
+              <column_name>カラム名</column_name>
+            </foreign_key>
+          </column>
+        </columns>
+      </data_model>
+
+    </data_models>
+    <data_validation>データ検証ルール</data_validation>
+    <data_migration>既存データの移行要件</data_migration>
+  </data_requirements>
+
+  <integration_requirements>
+    <external_systems>連携する外部システム</external_systems>
+    <apis>提供するAPI仕様</apis>
+    <data_formats>データ交換フォーマット</data_formats>
+  </integration_requirements>
+
+  <deliverables>
+    <item>成果物1（例：ソースコード）</item>
+    <item>成果物2（例：設計書）</item>
+    <item>成果物3（例：テストケース）</item>
+  </deliverables>
+</system_requirements>
